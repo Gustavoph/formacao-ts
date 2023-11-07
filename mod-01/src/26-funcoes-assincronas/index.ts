@@ -68,5 +68,7 @@
 }
 {
   type Callback = (err: unknown | null, data: string | null) => void
-  function lerArquivo (caminho: string: cb)
+  function lerArquivo (caminho: string, cb: Callback) {
+
+  }
 }
